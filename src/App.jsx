@@ -7,7 +7,7 @@ function App() {
   return (
     <BrowserRouter>
       <Routes>
-        <Route path="/" element={<AddData />} />
+        <Route path="/" element={<AddData/>} />
         <Route path="/add" element={<AddData />} />
         <Route path="/view" element={<ViewAll />} />
       </Routes>
